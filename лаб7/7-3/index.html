@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Шахматы</title>
+</head>
+
+<style>
+ 
+    .text-center {
+        text-align: center;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+    
+    h1 {
+        margin-bottom: 30px;
+    }
+    h2{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    #field {
+        width: 400px;
+        height: 400px;
+        box-sizing: content-box;
+        border: 1px solid black;
+        
+    }
+    .chess-block {
+        width: 50px;
+        height: 50px;
+        float: left;
+    }
+    .bg-black {
+        background: #000000;
+    }
+    .cif{
+        width: 400px;
+    }
+</style>
+<body>
+<div class="container">
+        <h1 class="text-center">Шахматы</h1>
+    <div class="cif" style="text-align: justify; text-align-last: justify;">     
+          <h2> A B C D E F G H</h2>
+    </div>
+        <div id="field"></div> 
+     <div class="cif" style="text-align: justify; text-align-last: justify;">     
+    <h2> A B C D E F G H</h2>
+    </div>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
